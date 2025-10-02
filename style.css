@@ -11,11 +11,15 @@
          margin: 0 auto;
         border: solid rgb(238, 231, 231);
 }
+
+
+
  
 body { 
       background-color: rgb(245, 245, 245);
 
 }
+
 
 h1 {
      text-align: center;
@@ -24,6 +28,8 @@ h1 {
      margin: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+
+   
 
 .conteiner-nav ul {
                 display: flex;
@@ -38,6 +44,9 @@ h1 {
                 margin-top: 35px;
 
 }
+
+
+
 
 nav ul li:hover {
              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
@@ -336,12 +345,86 @@ form h3 {
                        color: rgb(255, 255, 255);
                        padding: 15px 10px;
                        cursor: pointer;
-}                       
+}     
+
+
+
 
 #carouselExampleCaptions {
                           width: 50%;
                           height: 50%;
                           margin-left: 25%;
+                          margin-bottom: 25px;
 
 
 }
+
+
+
+                   /*ESTILO OUTLET */
+
+ .container-productos1 { 
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 40px;
+                        max-width: 100%;
+                        margin: 20px;
+                        padding: 50px;
+
+
+ }              
+
+ .producto1 {
+            background-color: rgb(50, 224, 74);
+            border-radius: 10px;
+            
+}
+
+.producto1:hover { 
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+
+}
+
+.info-producto1 {
+                padding: 15px 30px;
+                line-height: 2;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+}
+
+.info-producto1  h2{
+                  font-size: 25px;
+
+}
+
+.producto1 img {
+                width: 100%;
+                border-radius: 10px 10px 0 0;
+                transition: all .5s;
+}
+
+.producto1 figure {
+                  overflow: hidden;
+
+}
+
+.producto1:hover img {
+                transform: scale(1.2);
+
+}
+
+.precio1 { 
+            font-size: 25px;
+            font-weight: 900;
+            text-align: center;
+}
+
+.info-producto1 button {
+                       
+                       background: none;
+                       background-color: black;
+                       color: rgb(255, 255, 255);
+                       padding: 15px 10px;
+                       cursor: pointer;
+}     
