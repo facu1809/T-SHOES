@@ -6,7 +6,7 @@
     list-style: none;
 }
 .header {
-         background: linear-gradient(360deg, hsla(61, 94%, 51%, 1) 36%, hsla(263, 85%, 31%, 1) 67%);
+         background-color: rgb(255, 255, 45);
          border-radius: 20px;
          margin: 0 auto;
         border: solid rgb(238, 231, 231);
@@ -427,7 +427,9 @@ form h3 {
                        color: rgb(255, 255, 255);
                        padding: 15px 10px;
                        cursor: pointer;
-}     
+}    
+
+
 
 @media (max-width: 430px) {
 
