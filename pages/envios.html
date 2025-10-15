@@ -1,58 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envios TIGER-SHOES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css"> 
+    
+    <title>TIGER-SHOES</title>
+
 </head>
 <body>
 
-<header class="header">
-         <h1>TIGER-SHOES</h1>
+<header> 
 
-         <nav class="conteiner-nav">
-            <ul> 
-                <li><a href="../index.html">INICIO</a> </li>
-                <li><a href="./zapatillas.html">ZAPATILLAS</a></li>
-                <li><a href="./ropa.html">ROPA</a></li>
-                <li><a href="./outlet.html">OUTLET</a> </li>
-                <li><a href="./envios.html">ENVIOS</a></li>
-            </ul>
-         </nav>
+   <nav class="navbar navbar-expand-lg w-100">
+   <div class="container-fluid flex-column">
 
-         <form action=" ">
-            <label for="Buscar"></label>
-            <input type="search" name="Buscar" id="Buscar">
-            <button> Buscar</button>
+    <!-- Título arriba centrado -->
+    <div class="w-100 text-center py-2">
+      <h1 class="m-0 fw-bold">TIGER-SHOES</h1>
+    </div>
 
-         </form>
+    <!-- Botón toggle y menú -->
+    <div class="w-100 d-flex justify-content-between align-items-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 pb-3">
+          <li class="nav-item mx-5">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="zapatillas.html">Zapatillas</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="indumentaria.html">Indumentaria</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link" href="outlet.html">Outlet</a>
+          </li>
+          <li class="nav-item mx-5">
+            <a class="nav-link active" href="envios.html">Envíos</a>
+          </li>
+        </ul>
+
+        <!-- Buscador -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 mb-2" type="search" placeholder="Buscar..." aria-label="Search" />
+          <button class="btnHeader mb-2" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
 </header>
+
 
 <main>
 
 <h2> METODO DE ENVIO </h2>
 
-  <div class="transform">
-  <div class="container ">
+  
+  <div class="container-fluid ">
     <div class="row">
-         <img src="../visual/envios1" alt="preparacion pedido" class="col-4">
-         <p class="col-8">Una vez que hagas tu pedido nosotros lo preparamos para despachar por el correo, tene en cuenta que tiene una demora de aproximadamente 3 a 5 dias habiles</p>
+         <img src="../visual/envios1" alt="preparacion pedido" class="col-sm-12 col-md-6 col-xl-4">
+         <p class="col-sm-12 col-md-6 col-xl-8">Una vez que hagas tu pedido nosotros lo preparamos para despachar por el correo, tene en cuenta que tiene una demora de aproximadamente 3 a 5 dias habiles</p>
   </div>
+ 
+
+  <div class="row">
+         <p class="col-sm-12 col-md-6 col-xl-8"> Una vez que enviemos el pedido por correo te enviaremos al mail un codigo de seguimiento por el cual podras seguir el estado de tu pedido de forma inmediata</p>
+         <img src="../visual/envios2" alt="pedido enviado por avion" class="col-sm-12 col-md-6 col-xl-4">
   </div>
 
   <div class="row">
-         <p class="col-8"> Una vez que enviemos el pedido por correo te enviaremos al mail un codigo de seguimiento por el cual podras seguir el estado de tu pedido de forma inmediata</p>
-         <img src="../visual/envios2" alt="pedido enviado por avion" class="col-4">
-  </div>
-
-  <div class="row">
-         <img src="../visual/envios3" alt="paquete entregado" class="col-4">
-         <p class="col-8">Una vez que recibis tu pedido en tu domicilio asegurate de que elk codigo del rotulo coincida con el nro de pedido que se te ha enviado al mail, de esta manera prevenis futuros inconvenientes en alguna devolucion que pueda llegar a existir</p>
+         <img src="../visual/envios3" alt="paquete entregado" class="col-sm-12 col-md-6 col-xl-4">
+         <p class="col-sm-12 col-md-6 col-xl-8">Una vez que recibis tu pedido en tu domicilio asegurate de que elk codigo del rotulo coincida con el nro de pedido que se te ha enviado al mail, de esta manera prevenis futuros inconvenientes en alguna devolucion que pueda llegar a existir</p>
   </div>
 
 </div>
