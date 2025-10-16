@@ -1,0 +1,86 @@
+ header {
+            background-color: $fondo-nav;
+            border: 20px;
+            margin: 0 auto;
+            border: solid;
+ }
+ 
+ .btnHeader { 
+            background-color: rgb(59, 57, 216);
+            color: rgb(248, 247, 252); ;
+            border-radius: 5px;
+            padding: 2%;
+
+}
+
+body {
+        background-color: $fondo-body;
+        font-family: $texto-general;
+        font-weight: 400;
+        line-height: 1.6;
+        overflow-x: hidden;
+}
+
+h2, h3 {
+  font-family: $texto-general;
+  font-weight: 700; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color-texto;
+}
+
+.nav-item:hover {
+             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+             border-radius: 15px;
+}
+
+.footer-container {
+                   
+                    max-width: 1200px;
+                    margin: 0 auto;
+}
+
+.footer {
+            width: 100%;
+            background-color: $fondo-footer;
+            padding: 80px 0;
+            overflow-x: hidden;
+}
+
+.footer-row {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             gap: 40px;
+             flex-wrap: wrap;
+}
+
+.footer-links {
+                flex: 1 1 200px;
+                margin: 25px;
+             h4{
+                 font-size: 20px;
+                 color: #ffffff;
+                 margin-bottom: 25px;
+                 font-weight: 500;
+                 border-bottom: 2px solid #00c3ff;
+                 padding-bottom: 10px;
+                 display: inline-block;     
+                 ul li a { 
+                          font-size: 20px;
+                          text-decoration: none;
+                          list-style: none;
+                          color: #BBBBBB;
+                          display: block;
+                          margin-bottom: 15px;
+                          transition: all .3s ease;
+                          a:hover {
+                                   color: #ffffff;
+                                   padding-left: 6px;
+                                  }
+                         }
+                }       
+              }
+
+
+
