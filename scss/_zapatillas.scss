@@ -1,8 +1,6 @@
 .zapatillas-talles {
+                    @include flex (column, start, wrap);
                     background-color: #ffffff;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: start;  
                     width: 25%;
                     border-radius: 10px;
                     border: solid 2px rgb(168, 164, 164);                    
@@ -91,23 +89,27 @@ form h3 {
 .producto {
             background-color: rgb(182, 236, 218);
             border-radius: 10px;
-            img {
-                 width: 100%;
-                 border-radius: 10px 10px 0 0;
-                 transition: all .5s;
-                 figure {
-                         overflow: hidden;
-                        }
-                }
+}
+
+.producto img {
+               width: 100%;
+               border-radius: 10px 10px 0 0;
+               transition: all .5s;
+}
+
+.producto figure {
+                    overflow: hidden;
 }
 
 .producto:hover {
                   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-                  img {
-                       transform: scale(1.2);
-                  }
+                 
 }
 
+.producto:hover img {
+                     transform: scale(1.2);
+
+}
 .info-producto {
                 padding: 15px 30px;
                 line-height: 2;
@@ -116,13 +118,13 @@ form h3 {
                 gap: 10px;
                 h2{
                     font-size: 25px;
-                    button{ 
-                       background: none;
-                       background-color: black;
-                       color: rgb(255, 255, 255);
-                       padding: 15px 10px;
-                       cursor: pointer;
-                           }
                    }
-}
+}                 
 
+.info-producto button{ 
+                           background: none;
+                           background-color: black;
+                           color: rgb(255, 255, 255);
+                           padding: 15px 10px;
+                           cursor: pointer;
+}

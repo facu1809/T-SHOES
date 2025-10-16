@@ -13,14 +13,13 @@ video {
 }
 
 .conteiner-img { 
-                display: flex;
+                @include flex (row, space-around, wrap);
                 gap: 20px;
-                justify-content: space-around;
                 background-color: $fondo-section;
                 margin: 0.5%;
                 border-radius: 10px;
                 padding: 5%;
-                flex-wrap: wrap;
+                
 }
 
  .descripcion {

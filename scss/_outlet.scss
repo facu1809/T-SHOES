@@ -43,17 +43,18 @@
                 flex-grow: 1;
                 h2 {
                     font-size: 25px;
-                    button{
-                            margin-top: auto; 
-                            background-color: black;
-                            color: white;
-                            padding: 15px 10px;
-                            cursor: pointer;
-                            border: none;
-                            font-weight: bold;
-                            border-radius: 5px;
-                          }
                     }
+}
+
+.info-producto1 button{
+                        margin-top: auto; 
+                        background-color: black;
+                        color: white;
+                        padding: 15px 10px;
+                        cursor: pointer;
+                        border: none;
+                        font-weight: bold;
+                        border-radius: 5px;
 }
 
 .precio1 { 

@@ -1,16 +1,18 @@
 
 $fondo-nav: #eaf823;
-$fondo-body: #819dbb;
+$fondo-body: #d2deeb;
 $color-texto: #0D0D0D;
 $fondo-section:#4945BF;
 $fondo-footer:  #242628;
 
 $texto-general: 'Montserrat', sans-serif;
 
-
-
-
-
+@mixin flex ($direction, $justify, $wrap){
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
 
 
 
