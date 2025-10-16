@@ -241,4 +241,93 @@ form h3 {
   cursor: pointer;
 }
 
+.titulo-ropa {
+  background-color: #4945BF;
+  border-radius: 3%;
+  padding-bottom: 30px;
+  font-size: 60px;
+}
+
+.carouselColorText {
+  color: #0D0D0D;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.carouselColorText h4 {
+  font-weight: 600;
+  color: #0D0D0D;
+}
+
+#carouselExampleCaptions {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-bottom: 25px;
+}
+
+.container-productos1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive */
+  gap: 80px;
+  max-width: 100%;
+  margin: 20px;
+  padding: 50px;
+}
+
+.producto1 {
+  background-color: rgb(50, 224, 74);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.producto1 figure {
+  overflow: hidden;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.producto1 figure img {
+  width: 100%;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+
+.producto1:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.producto1:hover img {
+  transform: scale(1.2);
+}
+
+.info-producto1 {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.info-producto1 h2 {
+  font-size: 25px;
+}
+.info-producto1 h2 button {
+  margin-top: auto;
+  background-color: black;
+  color: white;
+  padding: 15px 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.precio1 {
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */

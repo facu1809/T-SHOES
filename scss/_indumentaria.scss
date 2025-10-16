@@ -1,0 +1,24 @@
+.titulo-ropa {
+              background-color: $fondo-section;
+              border-radius: 3%;
+              padding-bottom: 30px;
+              font-size: 60px;
+}
+
+.carouselColorText {
+                    color: $color-texto;
+                    text-align: center;
+                    display: block;
+                    margin-bottom: 30px;
+                    h4{
+                       font-weight: 600;
+                       color: $color-texto;
+                       }
+}
+
+#carouselExampleCaptions {
+                          width: 50%;
+                          height: 50%;
+                          margin-left: 25%;
+                          margin-bottom: 25px;
+}
