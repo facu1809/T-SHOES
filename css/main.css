@@ -138,6 +138,15 @@ video {
   margin-left: 4%;
 }
 
+.ordenar {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 3%;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .form-precio {
   display: flex;
   flex-direction: column;
@@ -152,15 +161,6 @@ form h3 {
   background-color: #ffffff;
   margin-left: 3%;
   margin-top: 8%;
-}
-
-.zapatillas-talles-form {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-left: 3%;
-  margin-top: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .talles-tabla {
@@ -186,6 +186,59 @@ form h3 {
   background-color: #ffffff;
   margin-left: 3%;
   margin-top: 8%;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+  gap: 25px;
+}
+
+.container-productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.producto {
+  background-color: rgb(182, 236, 218);
+  border-radius: 10px;
+}
+.producto img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  transition: all 0.5s;
+}
+.producto img figure {
+  overflow: hidden;
+}
+
+.producto:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.producto:hover img {
+  transform: scale(1.2);
+}
+
+.info-producto {
+  padding: 15px 30px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.info-producto h2 {
+  font-size: 25px;
+}
+.info-producto h2 button {
+  background: none;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 15px 10px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

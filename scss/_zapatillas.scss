@@ -19,9 +19,17 @@
                                     font-size: 20px;
                                     margin-top: 5%;
                                     margin-left: 4%;
-                                  }
-                             }
-                         }
+                                 }
+                              }
+                          }
+.ordenar {
+           display: flex;
+           flex-direction: column;
+           width: 50%;
+           margin-left: 3%;
+           margin-top: 20px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .form-precio { 
               display: flex;
@@ -39,15 +47,6 @@ form h3 {
          margin-top: 8%;
 }
 
-.zapatillas-talles-form  { 
-                          display: flex;
-                          flex-direction: column;
-                          width: 50%;
-                          margin-left: 3%;
-                          margin-top: 20px;
-                          font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 
 .talles-tabla { 
             display: flex;
@@ -61,10 +60,10 @@ form h3 {
              border: #BBBBBB solid 2px;
              .talle-boton {
                            display: flex;
-                           flex-direction: row; 
-                         }
-                }
-
+                           flex-direction: row;
+                        }
+}
+                
 .talles {
         text-align: start;
          font-size: 30px;
@@ -74,5 +73,56 @@ form h3 {
          margin-top: 8%;
 }
 
-            
-                
+.contenedor-principal { 
+                        display: flex;
+                        flex-direction: row;
+                        margin: 3px;
+                        gap: 25px;
+}
+
+.container-productos { 
+                      display: grid;
+                      grid-template-columns: repeat(3, 1fr);
+                      gap: 20px;
+                      justify-content: space-evenly;
+                      width: 75%;
+}
+
+.producto {
+            background-color: rgb(182, 236, 218);
+            border-radius: 10px;
+            img {
+                 width: 100%;
+                 border-radius: 10px 10px 0 0;
+                 transition: all .5s;
+                 figure {
+                         overflow: hidden;
+                        }
+                }
+}
+
+.producto:hover {
+                  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+                  img {
+                       transform: scale(1.2);
+                  }
+}
+
+.info-producto {
+                padding: 15px 30px;
+                line-height: 2;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h2{
+                    font-size: 25px;
+                    button{ 
+                       background: none;
+                       background-color: black;
+                       color: rgb(255, 255, 255);
+                       padding: 15px 10px;
+                       cursor: pointer;
+                           }
+                   }
+}
+
