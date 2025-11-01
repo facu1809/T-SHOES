@@ -7,8 +7,15 @@
                        padding: 50px;
 }
 
+.outlet-frase {
+     text-align: center;
+     color: rgb(138, 27, 138);
+     font-size: 45px;
+     font-weight: 800;
+     background-color: rgb(127, 127, 207);
+}
 .producto1 {
-            background-color: rgb(50, 224, 74);
+            background-color:  rgb(182, 236, 218);
             border-radius: 10px;
             display: flex;
             flex-direction: column;
@@ -61,4 +68,20 @@
           font-size: 25px;
           font-weight: 900;
           text-align: center;
+          color: rgb(16, 117, 16);
+}
+
+.oferta1 {
+          font-size: 15px;
+          font-weight: 900;
+          text-align: center;
+          text-decoration: line-through;
+          
+
+}
+
+.carousel-outlet .carousel-item { 
+                    height: 300px;
+                    padding-top: 3%;
+
 }

@@ -15,18 +15,19 @@ video {
 .conteiner-img { 
                 @include flex (row, space-around, wrap);
                 gap: 20px;
-                background-color: $fondo-section;
                 margin: 0.5%;
                 border-radius: 10px;
                 padding: 5%;
+                background-color: $fondo-nav;
                 
 }
 
  .descripcion {
-          text-align: end;
+          text-align: center;
           margin-top: 10px;
+          font-weight: 700;
           font-size: 25px;
-          color: beige;
+          color: rgb(147, 46, 214);
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }    
 
