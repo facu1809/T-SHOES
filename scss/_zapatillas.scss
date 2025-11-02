@@ -44,6 +44,7 @@ form h3 {
 }
 
 
+
 .talles-tabla { 
             display: flex;
             flex-direction: column;
@@ -53,14 +54,20 @@ form h3 {
             font-size: 15px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bolder;
-             border: #BBBBBB solid 2px;
+            border: #BBBBBB solid 2px;
+            padding: 5px;
              .talle-boton {
                            display: flex;
                            flex-direction: row;
-                           padding-bottom: 10px;
+                           padding-bottom: 8px;
+                           margin-left: 5px;
+                        }
+                        input {
+                                 margin-left: 5px;
                         }
 }
-                
+       
+
 .talles {
         text-align: start;
          font-size: 30px;

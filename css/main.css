@@ -190,11 +190,16 @@ form h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
   border: #BBBBBB solid 2px;
+  padding: 5px;
 }
 .talles-tabla .talle-boton {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  margin-left: 5px;
+}
+.talles-tabla input {
+  margin-left: 5px;
 }
 
 .talles {
